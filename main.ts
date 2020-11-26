@@ -1,9 +1,9 @@
 input.onButtonPressed(Button.B, function () {
-    pins.analogWritePin(AnalogPin.P4, 1023)
+    pins.digitalWritePin(DigitalPin.P0, 1)
     basic.pause(100)
     reading = pins.analogReadPin(AnalogPin.P3)
     basic.pause(100)
-    pins.analogWritePin(AnalogPin.P4, 0)
+    pins.digitalWritePin(DigitalPin.P0, 0)
     pourcentage = Math.round((reading - 610) * 100 / (1023 - 610))
     basic.showString("" + pourcentage + "%")
 })
@@ -15,17 +15,17 @@ servos.P2.setAngle(0)
 basic.pause(1000)
 servos.P2.stop()
 basic.forever(function () {
-    pins.analogWritePin(AnalogPin.P4, 1023)
+    pins.digitalWritePin(DigitalPin.P7, 1)
     basic.pause(100)
     reading = pins.analogReadPin(AnalogPin.P3)
     basic.pause(100)
-    pins.analogWritePin(AnalogPin.P4, 0)
+    pins.digitalWritePin(DigitalPin.P7, 0)
     pourcentage = Math.round((reading - 610) * 100 / (1023 - 610))
-    if (pourcentage <= 50) {
+    if (pourcentage <= 90) {
         servos.P2.setAngle(180)
-    } else if (pourcentage >= 50 && pourcentage <= 80) {
+    } else if (pourcentage >= 90 && pourcentage <= 95) {
         servos.P2.stop()
-    } else if (pourcentage > 80) {
+    } else if (pourcentage > 95) {
         servos.P2.setAngle(0)
     }
     radio.sendValue("H sol", pourcentage)
