@@ -21,11 +21,11 @@ basic.forever(function () {
     basic.pause(100)
     pins.digitalWritePin(DigitalPin.P7, 0)
     pourcentage = Math.round((reading - 610) * 100 / (1023 - 610))
-    if (pourcentage <= 90) {
+    if (pourcentage <= 95) {
         servos.P2.setAngle(180)
-    } else if (pourcentage >= 90 && pourcentage <= 95) {
+    } else if (pourcentage >= 95 && pourcentage <= 99) {
         servos.P2.stop()
-    } else if (pourcentage > 95) {
+    } else if (pourcentage > 99) {
         servos.P2.setAngle(0)
     }
     radio.sendValue("H sol", pourcentage)
