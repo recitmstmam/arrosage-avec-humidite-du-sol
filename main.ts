@@ -23,9 +23,9 @@ basic.forever(function () {
     pourcentage = Math.round((reading - 610) * 100 / (1023 - 610))
     if (pourcentage <= 95) {
         servos.P2.setAngle(180)
-    } else if (pourcentage >= 95 && pourcentage <= 99) {
+    } else if (pourcentage >= 95 && pourcentage <= 98) {
         servos.P2.stop()
-    } else if (pourcentage > 99) {
+    } else if (pourcentage > 98) {
         servos.P2.setAngle(0)
     }
     radio.sendValue("H sol", pourcentage)
