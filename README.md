@@ -1,5 +1,5 @@
 
-> Ouvrir cette page à [https://recitmstmam.github.io/arrosage-avec-humidite-du-sol/](https://recitmstmam.github.io/arrosage-avec-humidite-du-sol/)
+> Ouvrir cette page à [https://recitmstmam.github.io/arrosage-avec-humidite-du-sol-avec-radio/](https://recitmstmam.github.io/arrosage-avec-humidite-du-sol-avec-radio/)
 
 ## Utiliser comme extension
 
@@ -8,7 +8,7 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 * ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * cliquez sur **Nouveau projet**
 * cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/recitmstmam/arrosage-avec-humidite-du-sol** et importez
+* recherchez **https://github.com/recitmstmam/arrosage-avec-humidite-du-sol-avec-radio** et importez
 
 ## Éditer ce projet ![Badge du statut de la compilation](https://github.com/recitmstmam/arrosage-avec-humidite-du-sol/workflows/MakeCode/badge.svg)
 
@@ -16,14 +16,14 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 
 * ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/recitmstmam/arrosage-avec-humidite-du-sol** et cliquez sur importer
+* collez **https://github.com/recitmstmam/arrosage-avec-humidite-du-sol-avec-radio** et cliquez sur importer
 
 ## Aperçu des blocs
 
 Cette section montre le code des blocs du dernier commit dans la branche master.
 Cette image peut prendre quelques minutes pour être actualisée.
 
-![Un rendu de la vue des blocs](https://github.com/recitmstmam/arrosage-avec-humidite-du-sol/raw/master/.github/makecode/blocks.png)
+![Un rendu de la vue des blocs](https://github.com/recitmstmam/arrosage-avec-humidite-du-sol-avec-radio/raw/master/.github/makecode/blocks.png)
 
 #### Métadonnées (utilisées pour la recherche, le rendu)
 
